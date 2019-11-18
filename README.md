@@ -1,0 +1,1 @@
+https://ldenisss.github.io/kuravax/
