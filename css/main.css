@@ -1,0 +1,32 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.navigation{
+    display: flex;
+    width: 100%;
+    min-height: 10%;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+
+}
+.navigation__list{
+    display: flex;
+    
+}
+.navigation__item{
+    color: white;
+    list-style: none;
+    padding-left: 50px;
+}
+.navigation__item-link{
+    color: white;
+    text-decoration: none;
+}

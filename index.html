@@ -5,50 +5,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
     <title>Главная</title>
 </head>
 
 <body>
     <div class="wrapper">
         <div class="header">
-            <div class="header__video">
-
-            </div>
             <div class="navigation">
                 <ul class="navigation__list">
                     <li class="navigation__item">
-                        Главная
+                        <a class="navigation__item-link" href="./index.html">Главная</a>
                     </li>
                     <li class="navigation__item">
-                        Обо мне
+                        <a class="navigation__item-link" href="./about.html"> Обо мне</a>
                     </li>
                     <li class="navigation__item">
-                        Правила
+                        <a class="navigation__item-link" href="./regulation.html">Правила</a>
+
                     </li>
                     <li class="navigation__item">
-                        Отзывы
-                    </li>
-                    <li class="navigation__item">
-                        <script src="https://apis.google.com/js/platform.js"></script>
-                        <div class="g-ytsubscribe" data-channelid="UChIOQC2vfN5t5A0kU2RaxVA" data-layout="default"
-                            data-count="default">
-                        </div>
+                        <a class="navigation__item-youtube" href="https://www.youtube.com/channel/UChIOQC2vfN5t5A0kU2RaxVA"></a>
                     </li>
                 </ul>
             </div>
+            <div class="header__video">
+                <video autoplay loop muted class="bgvideo" id="bgvideo">
+                    <source src="video.mp4" type="video/mp4">
+                    </source>
+                </video>
+            </div>
         </div>
         <div class="main">
-            <iframe width="560" height="315"
+            <section class="welcome">
+                <div class="welcome__title">
+                    WELCOME TO KURAVAX
+                </div>
+                <div class="welcome__text">
+                    Этот проект создан для поддержки учащихся 7-12 классов в учебном плане.
+                    Тут Вы увидите такие вещи, как теоретические занятия и практичесукие работы по таким предметам, как
+                    Химия, Физика, Математика, История, Обществознание, Русский язык, и так далее
+                    У канала очень бурно растущая аудитория, на данный момнт составляющая более 100 человек.
+                    Канал основан в сентябре 2019 года.
+                    Подпишись, чтобы дальше узнавать новую информацию и смотреть красивые эксперименты
+                </div>
+                <div class="sub">
+                    <script src="https://apis.google.com/js/platform.js"></script>
+                    <div class="g-ytsubscribe" data-channelid="UChIOQC2vfN5t5A0kU2RaxVA" data-layout="default"
+                        data-count="default"></div>
+                </div>
+            </section>
+        </div>
+        <div class="footer">
+            <!-- <iframe width="560" height="315"
                 src="https://www.youtube.com/embed/videoseries?list=PL4z1FlRUcEEPCkIHd8Y2YSb18GzlPMfix" frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen></iframe>
-        </div>
-        <div class="footer">
             <iframe
                 src="https://averin.pro/widget.php?l=kuravaxschool&style=2&width=250&gallery=0&s=80&icc=3&icr=3&t=1&tt=Мы в Инстаграм&h=1&ttcolor=FFFFFF&th=c3c3c3&bw=ffffff&bscolor=FFFFFF&bs=FF0000&ts=Подписаться"
                 allowtransparency="true" frameborder="0" scrolling="no"
-                style="border:none;overflow:hidden;width:350px; height: 490px"></iframe>
+                style="border:none;overflow:hidden;width:350px; height: 490px"></iframe> -->
         </div>
     </div>
 

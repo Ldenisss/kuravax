@@ -1,0 +1,50 @@
+body {
+    background: url('video.png');
+    background-size: cover;
+  }
+.bgvideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -9999;
+}
+.main{
+    display: flex;
+    margin-top: 50%;
+}
+.welcome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 500px;
+    height: 100%;
+    width: 100%;
+}
+.welcome__title{
+    display: flex;
+    border: 5px solid black;
+    justify-content: center;
+    width: 350px;
+    padding: 38px;
+    font-weight: 700;
+    font-size: 28px;
+}
+.welcome__text{
+    text-align: center;
+    padding-top: 60px;
+    color: #7a7a7a;
+    font-weight: normal;
+    font-size: 17px;
+    width: 700px;
+    line-height: 32px;
+}
+.navigation__item-youtube{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-image: url(../1486147202-social-media-circled-network10_79475.png);
+}
