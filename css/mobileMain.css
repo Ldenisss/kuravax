@@ -2,6 +2,12 @@
     .header__menu-phone{
         display: none;
     }
+    .menu__phone{
+        display: none;
+    }
+    .navigation__list{
+        display: flex;
+    }
 }
 @media screen and (max-width: 414px) {
     .header__video{
@@ -99,5 +105,9 @@
     }
     .regulation__text{
         width: 100%;
+    }
+    .container {
+        width: 95%;
+
     }
 }
